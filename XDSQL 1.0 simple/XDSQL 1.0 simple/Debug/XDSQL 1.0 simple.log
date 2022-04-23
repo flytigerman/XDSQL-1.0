@@ -1,0 +1,41 @@
+﻿生成启动时间为 2022-04-23 15:49:03。
+日志记录详细程度设置为: Normal。     1>项目“D:\DBMS开发\2022版本\实验用\基础版本\XDSQL 1.0 simple\XDSQL 1.0 simple\XDSQL 1.0 simple.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\XDSQL 1.0 simple.tlog\XDSQL 1.0 simple.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\XDSQL 1.0 simple.tlog\unsuccessfulbuild”执行 Touch 任务。
+       BisonTarget:
+         Process "gram.y" bison file
+         cmd.exe /D /C "C:\Users\86186\AppData\Local\Temp\tmpfc4c687b280944a79234049cbfb4e15f.cmd"
+         
+         start /B /WAIT /D "D:\DBMS开发\2022版本\实验用\基础版本\XDSQL 1.0 simple\XDSQL 1.0 simple\" win_bison.exe --output="gram.tab.cpp" --defines="gram.tab.h"  "gram.y"
+         exit /b %errorlevel%
+         gram.y:224.12-14: error: symbol cal is used, but is not defined as a token and has no rules
+         gram.y:271.63-72: error: symbol conditions is used, but is not defined as a token and has no rules
+         gram.y:81.21-31: error: symbol deletetable is used, but is not defined as a token and has no rules
+         gram.y:288.11-18: error: symbol tablecol is used, but is not defined as a token and has no rules
+         gram.y:227.28-29: error: $1 of 'colvalue' has no declared type
+         gram.y:273.49-50: error: $6 of 'updatetable' has no declared type
+         gram.y:289.12-13: error: $1 of 'setconf' has no declared type
+         gram.y:293.12-13: error: $1 of 'setconf' has no declared type
+         gram.y:294.28-29: error: $3 of 'setconf' has no declared type
+         gram.y:301.29-30: error: $1 of 'tablecols' has no declared type
+         gram.y:305.29-30: error: $3 of 'tablecols' has no declared type
+         gram.y:320.32-33: error: $6 of 'selecttable' has no declared type
+     1>D:\win_flex_bison\custom_build_rules\win_flex_bison_custom_build.targets(55,5): error MSB3721: 命令“
+D:\win_flex_bison\custom_build_rules\win_flex_bison_custom_build.targets(55,5): error MSB3721: start /B /WAIT /D "D:\DBMS开发\2022版本\实验用\基础版本\XDSQL 1.0 simple\XDSQL 1.0 simple\" win_bison.exe --output="gram.tab.cpp" --defines="gram.tab.h"  "gram.y"
+D:\win_flex_bison\custom_build_rules\win_flex_bison_custom_build.targets(55,5): error MSB3721: exit /b %errorlevel%”已退出，返回代码为 1。
+     1>已完成生成项目“D:\DBMS开发\2022版本\实验用\基础版本\XDSQL 1.0 simple\XDSQL 1.0 simple\XDSQL 1.0 simple.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+       “D:\DBMS开发\2022版本\实验用\基础版本\XDSQL 1.0 simple\XDSQL 1.0 simple\XDSQL 1.0 simple.vcxproj”(Rebuild 目标) (1) ->
+       (BisonTarget 目标) -> 
+         D:\win_flex_bison\custom_build_rules\win_flex_bison_custom_build.targets(55,5): error MSB3721: 命令“
+       D:\win_flex_bison\custom_build_rules\win_flex_bison_custom_build.targets(55,5): error MSB3721: start /B /WAIT /D "D:\DBMS开发\2022版本\实验用\基础版本\XDSQL 1.0 simple\XDSQL 1.0 simple\" win_bison.exe --output="gram.tab.cpp" --defines="gram.tab.h"  "gram.y"
+       D:\win_flex_bison\custom_build_rules\win_flex_bison_custom_build.targets(55,5): error MSB3721: exit /b %errorlevel%”已退出，返回代码为 1。
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.29
