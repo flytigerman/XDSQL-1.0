@@ -2,8 +2,6 @@
 #ifndef _CONDITION_H
 #define _CONDITION_H
 
-#pragma comment(lib,"conditiontype.lib")
-#pragma comment(lib,"MetaDataManager.lib")
 #include "conditiontype.h"
 #include "MetaDataManager.h"
 
@@ -13,12 +11,10 @@
 * @date    :
 * @file    :
 * @brief   : 储存条件表达式的数据
-			 ps:鼠鼠是真的不想写了，吐了
-*			 为了编程简单把数据成员声明成public
 *****************************************************************************/
 class condition {
 public:
-	/*左，右部的数据类型和值*/
+	/* 左，右部的数据类型和值 */
 	conditiontype left;
 	conditiontype right;
 
@@ -40,11 +36,11 @@ public:
 
 	/*****************************************************************************
 	* @name    : dealConditions
-	* @input   : 
+	* @input   :
 	* @output  : pair的first是子树的result值,second是子树的isunknown值
 	* @brief   : 计算以当前对象为根节点的生成树的逻辑值，设置自身的result成员并返回
 	*****************************************************************************/
-	pair<bool,bool> dealConditions();
+	pair<bool, bool> dealConditions();
 
 
 
@@ -64,7 +60,7 @@ public:
 	/*****************************************************************************
 	* @name    : addTableName
 	* @input   :
-	* @output  : 
+	* @output  :
 	* @brief   : 在delete和update中可能从SQL引擎获取的colvalue对象中没有tablename成员
 	*			 所以手动加上
 	*****************************************************************************/
@@ -82,8 +78,8 @@ public:
 				 tablename数据
 	*****************************************************************************/
 	void addTableName(MetaDataManager* mdm,
-					  string dbname,
-					  vector<colvalue*> tables);
+		string dbname,
+		vector<colvalue*> tables);
 
 
 
