@@ -7,7 +7,7 @@
 
 
 /*****************************************************************************
-* @author  : Jiajun Chang,Hongguang Zhao                                                             *
+* @author  : Jiajun Chang,Hongguang Zhao
 * @date    :
 * @file    :
 * @brief   : 储存条件表达式的数据
